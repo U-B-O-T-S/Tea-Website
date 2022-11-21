@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+     height: 100vh;
+     width: 100%;
+     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./595816.jpg);
+     background-size: cover;
+     background-position: center;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container2{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./TeaB.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container3{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./pexels-photo-904616.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container4{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./pexels-photo-981091.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container5{
+    height: 70vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container6{
+    height: 70vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./girl-865304.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container7{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./literature-3091212.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-bar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:30px 30px;
+
+}
+
+.nav-bar .title{
+
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+span{
+    color: crimson;
+}
+
+.nav-bar p{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500
+
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.menu li a:hover{
+    color: crimson;
+    padding: 5px 10px;
+    border: 2px solid  #fff;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+
+.title-1{
+    font-size:  56px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home Footer{
+    font-size:  56px;
+    color: #fff;
+    font-weight: 600;
+    background-color: darkslategrey;
+}
+.home p{
+    color: lemonchiffon;
+    font-size:  20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.home button{
+    height: 40px;
+    color: #fff;
+    background: crimson;
+    font-size: 22px;
+    padding:5px 30px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.home button:hover{
+    background:none;
+    
+    border: 2px solid crimson;
+}
+
+.nav-bar1 .title{
+    
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 100px;
+    padding-left: 37%;
+
+}
+
+.nav-bar1 p{
+    position: absolute;
+    right: 50%;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500
+
+}
+
+
+.nav-bar1 button{
+    
+    position: relative;
+    left: 85%;
+    height: 50px;
+    color: #fff;
+    background: crimson;
+    font-size: 22px;
+    padding:5px 30px;
+    margin-top: 400px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+    
+}
+.nav-bar1 button:hover{
+    background:none;
+    
+    border: 2px solid crimson;
+}
+
